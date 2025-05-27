@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
-        IMAGE_NAME = 'praveen0828/java-docker'
+        IMAGE_NAME = 'praveen0828/java-docker-demo'
     }
 
     stages {
